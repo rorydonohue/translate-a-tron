@@ -1,0 +1,11 @@
+{
+	"name":	"Translate-a-tron",
+	"version":	"0.0.1",
+	"description": " a basic chat client to allow two users or more to talk to each other on a web browser with French translation",
+	"dependencies": {
+		"socket.io": "latest",
+		"express": "latest",
+		"jade":	"latest"
+	},
+	"author": "Rory Donohue"
+}

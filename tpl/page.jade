@@ -1,0 +1,16 @@
+html
+	head
+		title = "Translate-a-tron"
+		script(src='/socket.io/socket.io.js')
+		script(src='/jquery.min.js')
+		script(src='/chat.js')
+	body
+		#content(style='width: 500px; height: 300px; float: left; margin: 0 0 20px 0; border: solid 1px #999; overflow-y: scroll')
+		#translation(style='width: 500px; height: 300px; float: left; margin: 0 0 20px 0; border: solid 1px #999; overflow-y: scroll')
+		.controls(style='clear: both')
+			| Name: 
+			input#name(style='width:350px')
+			br
+			| Message: 
+			input#field(style='width:350px;')
+			input#send(type='button',value='send')
